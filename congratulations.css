@@ -1,0 +1,30 @@
+body{
+  background-image: url("congratulationsfirework3.jpg");
+  background-repeat:no-repeat;
+  background-size: 1290px 600px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+
+}
+h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+button{
+  color: black;
+  font-size: 25px;
+  background-color: white;
+  border: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
