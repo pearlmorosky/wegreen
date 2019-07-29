@@ -1,0 +1,120 @@
+
+body{
+background-image: url("star.gif");
+background-repeat:no-repeat;
+background-size: 1290px 600px;
+color: #ffffff;
+text-align: center;
+font-size: 80px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+
+}
+h1{
+text-align: center;
+color: #ffffff;
+font-size: 100px;
+font-family: 'Amatic SC', cursive;
+margin-bottom: 6px;
+}
+
+h2{
+color: #ffffff;
+text-align: center;
+font-size: 25px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 65px;
+  font-family: 'Amatic SC', cursive;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+div {
+  text-align: center;
+  color: yellow;
+  font-size: 43px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.button{
+color: black;
+font-size: 25px;
+background-color: white;
+border: none;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bolder;
+}
+
+.start {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border-style: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+  margin-left: 17px;
+  margin-right: 17px;
+  width : 65px;
+  length: 45px;
+  text-align : center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 9px;
+}
+
+.start:hover {background-color: #3e8e41}
+
+.start:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.end {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border-style: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+  margin-left: 17px;
+  margin-right: 17px;
+  width : 65px;
+  length: 45px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 9px;
+
+}
+
+.end:hover {background-color: #ff0000}
+
+.end:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+a {
+text-decoration: none;
+font-weight: bolder;
+}
+
+word {
+  font-size: 15px;
+  color : black;
+}

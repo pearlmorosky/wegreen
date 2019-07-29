@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Congratulations!</title>
+  </head>
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+ <link href="congratulations.css" rel="stylesheet">
+ <link href="homepage.html">
+ <link href="calendar.html">
+ <link href="cheering.mp3">
+
+  <body>
+    <h1><em>Congratulations!</em></h1>
+    <p>
+      <img src="fireworks.png" style="width:100px" style="length: 100px"><em>You completed the 30 Day Goal!!</em>
+      <word>hi</word><img src="fireworks.png" style="width:100px" style ="length:100px">
+    </p>
+
+    <audio id="myAudio">
+      <source src="congrats.mp3" type="audio/mpeg">
+    </audio>
+
+    <div>
+      <br> ✨To celebrate more✨
+      <br><button onclick="playAudio()" type = "button" class = "start"><strong>START</strong></button><button onclick="pauseAudio()" type = "button" class = "end"><strong>END</strong></button>
+    </div>
+
+    <script>
+      var x = document.getElementById("myAudio");
+
+      function playAudio() {
+        x.play();
+      }
+
+      function pauseAudio() {
+        x.pause();
+      }
+    </script>
+
+    <!-- <sound id ="congrats">
+      <source src="cheering.mp3" type="audio/mp3">
+    </sound>
+
+    <script>
+      var audio = document.getElementById("congrats");
+
+      function playSound() {
+        audio.play();
+      }
+
+      function pauseSound() {
+        audio.pause();
+      }
+    </script> -->
+
+    <h2>
+      To go check out the rest of the website click <button type="button" class = "button"><a href = "homepage.html"><strong>here</strong></a></button>!!
+    </h2>
+  </body>
+
+</html>
